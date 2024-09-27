@@ -321,18 +321,18 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
+            'text' => 'Clientes',
+            'url' => 'clients',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
+            'text' => 'Destinos',
+            'url' => 'destinations',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
+            'text' => 'Paquetes',
+            'url' => 'packages',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
