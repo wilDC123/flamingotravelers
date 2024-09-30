@@ -13,11 +13,10 @@ return new class extends Migration
     {
         Schema::create('reservations', function (Blueprint $table) {
             $table->id();
-            $table->date('start_date'); 
-            $table->date('end_date'); 
-            $table->integer('remaining_date'); 
-            $table->integer('number_people'); 
-            $table->string('status'); 
+            $table->date('start_date');
+            $table->date('end_date');
+            $table->integer('number_people');
+            $table->string('status');
             $table->foreignId('destination_id')->constrained('destinations')->onDelete('cascade');
             $table->foreignId('client_id')->constrained('clients')->onDelete('cascade');
             $table->foreignId('package_id')->constrained('packages')->onDelete('cascade');

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\PackageController;
+use App\Http\Controllers\ReservationController;
 
 
 /*
@@ -27,3 +28,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('clients', ClientController::class);
 Route::resource('destinations', DestinationController::class);
 Route::resource('packages', PackageController::class);
+Route::resource('reservations', ReservationController::class);
