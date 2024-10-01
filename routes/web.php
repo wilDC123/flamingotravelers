@@ -5,6 +5,8 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\ReservationController;
+use App\Http\Controllers\PaymentController;
+
 
 
 /*
@@ -29,3 +31,4 @@ Route::resource('clients', ClientController::class);
 Route::resource('destinations', DestinationController::class);
 Route::resource('packages', PackageController::class);
 Route::resource('reservations', ReservationController::class);
+Route::resource('payment', PaymentController::class);
