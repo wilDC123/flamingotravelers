@@ -316,35 +316,38 @@ return [
             'can' => 'manage-blog',
         ],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text' => 'Inicio',
+            'url'  => 'home', 
+            'icon' => 'fas fa-fw fa-tachometer-alt', 
         ],
         [
             'text' => 'Clientes',
-            'url' => 'clients',
-            'icon' => 'fas fa-fw fa-user',
+            'url'  => 'clients',
+            'icon' => 'fas fa-fw fa-users', 
         ],
         [
             'text' => 'Destinos',
-            'url' => 'destinations',
-            'icon' => 'fas fa-fw fa-user',
+            'url'  => 'destinations',
+            'icon' => 'fas fa-fw fa-map-marker-alt',  
         ],
         [
             'text' => 'Paquetes',
-            'url' => 'packages',
-            'icon' => 'fas fa-fw fa-user',
+            'url'  => 'packages',
+            'icon' => 'fas fa-fw fa-box',  
         ],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text' => 'Reservaciones',
+            'url'  => 'reservations',
+            'icon' => 'fas fa-fw fa-calendar-check',  
         ],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
+            'text' => 'Pagos',
+            'url' => 'payment',
             'icon' => 'fas fa-fw fa-user',
         ],
+        
+       
+       
     ],
 
     /*
