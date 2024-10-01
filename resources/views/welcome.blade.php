@@ -217,7 +217,7 @@
                     <img src="{{ asset('img/parque-Cretácico.jpg') }}" class="d-block w-100" alt="Segunda imagen">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Explora una de las reservas más importantes de huellas de dinosaurios.</h5>
-                      <a href="https://wa.me/59172364786?text=Hola, estoy interesado en más información." class="btn btn-success" target="_blank">Reserva ahora</a>
+                      <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                     </div>
                   </div>
 
@@ -225,7 +225,7 @@
                     <img src="{{ asset('img/cerro-Potosí.jpg') }}" class="d-block w-100" alt="Tercera imagen">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Conoce el esplendor y magestuosidad de la ciudad con más historia de Bolivia.</h5>
-                      <a href="https://wa.me/59172364786?text=Hola, estoy interesado en más información." class="btn btn-success" target="_blank">Reserva ahora</a>
+                      <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                     </div>
                   </div>
                 </div>
@@ -256,37 +256,37 @@
                     <img src="{{ asset('img/salar.jpg') }}" alt="">
                     <h4>Tour Salar de Uyuni</h4>
                     <p>Explora el desierto de sal más grande del mundo con vistas impresionantes.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/laguna-colorada.jpg') }}" alt="">
                     <h4>Tour Lagunas</h4>
                     <p>Descubre coloridas lagunas altiplánicas rodeadas de paisajes surrealistas.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/arbol-piedra.jpg') }}" alt="">
                     <h4>Tour Árbol de Piedra</h4>
                     <p>Admira esta fascinante formación rocosa en medio del desierto de Siloli.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/cretacico.jpg') }}" alt="">
                     <h4>Tour Parque Cretácico</h4>
                     <p>Revive la era de los dinosaurios con huellas y fósiles auténticos.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/minas-potosi.jpg') }}" alt="">
                     <h4>Tour Cerro Rico de Potosí</h4>
                     <p>Visita la histórica montaña que impulsó el auge de la plata en Potosí.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/casa-moneda.jpg') }}" alt="">
                     <h4>Tour Museos de Potosí</h4>
                     <p>Explora la riqueza cultural y minera de Potosí en sus fascinantes museos.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                 </div>
             </section>
@@ -341,7 +341,6 @@
                   <div>
                       <img src="{{ asset('img/flamingo_logo1.png') }}" alt="Logo" style="width: 70px;">
                   </div>
-          
                   <!-- Íconos de redes sociales en el lado derecho -->
                   <div class="social-icons">
                     <p>Síguenos en nuestras redes sociales:</p>
