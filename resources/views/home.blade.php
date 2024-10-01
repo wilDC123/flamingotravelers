@@ -22,7 +22,7 @@
         <div class="col-md-3">
             <div class="small-box bg-info">
                 <div class="inner">
-                    <h3>150</h3>
+                    
                     <p>Clientes Registrados</p>
                 </div>
                 <div class="icon">
@@ -35,7 +35,7 @@
         <div class="col-md-3">
             <div class="small-box bg-success">
                 <div class="inner">
-                    <h3>20</h3>
+                    
                     <p>Destinos Disponibles</p>
                 </div>
                 <div class="icon">
@@ -48,7 +48,7 @@
         <div class="col-md-3">
             <div class="small-box bg-warning">
                 <div class="inner">
-                    <h3>30</h3>
+                    
                     <p>Paquetes Turísticos</p>
                 </div>
                 <div class="icon">
@@ -61,7 +61,7 @@
         <div class="col-md-3">
             <div class="small-box bg-danger">
                 <div class="inner">
-                    <h3>50</h3>
+                   
                     <p>Reservaciones Activas</p>
                 </div>
                 <div class="icon">
