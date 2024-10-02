@@ -348,13 +348,14 @@ return [
         [
             'text' => 'Reportes reservas',
             'url' => 'reportes',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-calendar', // Ícono de calendario
         ],
         [
             'text' => 'Reportes pagos',
             'url' => 'reportespagos',
-            'icon' => 'fas fa-fw fa-user',
+            'icon' => 'fas fa-fw fa-money-bill-wave', // Ícono de dinero
         ],
+        
         
        
        
