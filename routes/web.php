@@ -6,6 +6,8 @@ use App\Http\Controllers\DestinationController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ReportController;
+use App\Http\Controllers\PaymentReportController;
 
 
 
@@ -42,3 +44,6 @@ Route::resource('destinations', DestinationController::class);
 Route::resource('packages', PackageController::class);
 Route::resource('reservations', ReservationController::class);
 Route::resource('payment', PaymentController::class);
+Route::get('reportes', [ReportController::class, 'generarPDF'])->name('reporte.reservas');
+
+Route::get('reportespagos', [PaymentReportController::class, 'showPaymentReport'])->name('reporte.pagos');

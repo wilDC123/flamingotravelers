@@ -345,6 +345,16 @@ return [
             'url' => 'payment',
             'icon' => 'fas fa-fw fa-user',
         ],
+        [
+            'text' => 'Reportes reservas',
+            'url' => 'reportes',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'Reportes pagos',
+            'url' => 'reportespagos',
+            'icon' => 'fas fa-fw fa-user',
+        ],
         
        
        
