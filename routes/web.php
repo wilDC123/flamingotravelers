@@ -24,6 +24,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('contact', function () {
+    return view('contact');
+})->name('contact');
+
+Route::post('/contact', 'App\Http\Controllers\ClientController@storeContact')->name('contact.store');
+
+Route::get('success', function () {
+    return view('success');
+})->name('success');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -18,6 +18,12 @@
             font-size: 20px;
             font-weight: 600;
           }
+          .nav-item{
+            margin-right: 10px;
+          }
+          .nav-item a:hover{
+            scale: 1.1;
+          }
             /* Ajuste del tamaño del carrusel */
             .carousel-item {
               height: 36rem; /* El 60% de la altura del viewport */
@@ -170,7 +176,7 @@
                   <!-- Contenido del navbar -->
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <!-- Menú alineado a la derecha -->
-                    <ul class="navbar-nav ml-auto" style="margin-right: 20px;">
+                    <ul class="navbar-nav ml-auto" style="margin-right: 10px;">
                       <li class="nav-item">
                         <a class="nav-link text-white" href="#sobre-nosotros">Sobre nosotros</a>
                       </li>
@@ -209,7 +215,7 @@
                     <img src="{{ asset('img/salar-Uyuni.jpg') }}" class="d-block w-100" alt="Primera imagen">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>No pierdas la oportunidad de experimentar una aventura en el salar más grande del mundo.</h5>
-                      <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                      <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                     </div>
                   </div>
 
@@ -217,7 +223,7 @@
                     <img src="{{ asset('img/parque-Cretácico.jpg') }}" class="d-block w-100" alt="Segunda imagen">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Explora una de las reservas más importantes de huellas de dinosaurios.</h5>
-                      <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                      <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                     </div>
                   </div>
 
@@ -225,7 +231,7 @@
                     <img src="{{ asset('img/cerro-Potosí.jpg') }}" class="d-block w-100" alt="Tercera imagen">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Conoce el esplendor y magestuosidad de la ciudad con más historia de Bolivia.</h5>
-                      <a href="https://wa.me/59172364786?text=Hola, estoy interesado el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                      <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                     </div>
                   </div>
                 </div>
@@ -256,37 +262,37 @@
                     <img src="{{ asset('img/salar.jpg') }}" alt="">
                     <h4>Tour Salar de Uyuni</h4>
                     <p>Explora el desierto de sal más grande del mundo con vistas impresionantes.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/laguna-colorada.jpg') }}" alt="">
                     <h4>Tour Lagunas</h4>
                     <p>Descubre coloridas lagunas altiplánicas rodeadas de paisajes surrealistas.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/arbol-piedra.jpg') }}" alt="">
                     <h4>Tour Árbol de Piedra</h4>
                     <p>Admira esta fascinante formación rocosa en medio del desierto de Siloli.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/cretacico.jpg') }}" alt="">
                     <h4>Tour Parque Cretácico</h4>
                     <p>Revive la era de los dinosaurios con huellas y fósiles auténticos.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/minas-potosi.jpg') }}" alt="">
                     <h4>Tour Cerro Rico de Potosí</h4>
                     <p>Visita la histórica montaña que impulsó el auge de la plata en Potosí.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                   <div class="tour-card">
                     <img src="{{ asset('img/casa-moneda.jpg') }}" alt="">
                     <h4>Tour Museos de Potosí</h4>
                     <p>Explora la riqueza cultural y minera de Potosí en sus fascinantes museos.</p>
-                    <a href="https://wa.me/59172364786?text=Hola, estoy interesado en el tour ¿pueden brindarme en más información?" class="btn btn-success" target="_blank">Reserva ahora</a>
+                    <a href="{{ route('contact') }}" class="btn btn-success" target="_blank">Reserva ahora</a>
                   </div>
                 </div>
             </section>
@@ -300,7 +306,7 @@
                         <img src="{{ asset('img/Uyuni.jpg') }}" class="d-block w-100" alt="Tour Uyuni">
                         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
                             <h2 class="text-white">Uyuni: Una experiencia imperdible</h2>
-                            <a href="#" class="btn btn-light">Ver detalles</a>
+                            <a href="{{ route('contact') }}" class="btn btn-success">Más información</a>
                         </div>
                     </div>
             
@@ -309,7 +315,7 @@
                         <img src="{{ asset('img/Potosí.jpg') }}" class="d-block w-100" alt="Tour Potosí">
                         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
                             <h2 class="text-white">Potosí: Patrimonio de la humanidad</h2>
-                            <a href="#" class="btn btn-light">Ver detalles</a>
+                            <a href="{{ route('contact') }}" class="btn btn-success">Más información</a>
                         </div>
                     </div>
             
@@ -318,7 +324,7 @@
                         <img src="{{ asset('img/Sucre.jpg') }}" class="d-block w-100" alt="Tour Sucre">
                         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
                             <h2 class="text-white">Sucre: La ciudad blanca</h2>
-                            <a href="#" class="btn btn-light">Ver detalles</a>
+                            <a href="{{ route('contact') }}" class="btn btn-success">Más información</a>
                         </div>
                     </div>
                 </div>

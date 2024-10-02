@@ -28,6 +28,11 @@ class ClientController extends Controller
         return redirect()->route('clients.index');
     }
 
+    public function storeContact(Request $request)
+    {
+        Client::create($request->all());
+        return redirect()->route('success');
+    }
 
     public function show(string $id)
     {
